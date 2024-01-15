@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    line-height: 7px;
+}
+
+
+main{
+    height: 100vh;
+    background-color: aqua;
+}
+
+nav{
+    border-bottom: 2px white solid;
+}
+
+nav ul{
+    background-color: #000000;
+    display: flex;
+
+    list-style-type: none;
+    height: 65px;
+}
+
+ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 5px 0px 5px;
+    margin-right: 10px;
+    margin-left: 40px;
+    color: white;
+    font-size: 18px;
+    
+}
+
+ul li:nth-child(1){
+    margin-right: 40px;
+    border: 2px solid white;
+}
+ul li:nth-child(4){
+    margin-right: auto;
+}
+
+.leagues{
+    font-weight:bolder;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+ul li:nth-child(5){
+    color: black;
+    font-size: 15px;
+    margin: auto;
+    height: 30px;
+    margin-right: 40px;
+    border-radius: 30px;
+    padding: 0px 10px 0px 10px;
+    background-color: #46FC96;
+
+}
+
+
+#game-schedule{
+    border: solid 3px red;
+    display: flex;
+    width: auto;
+    margin-right: auto;
+
+}
+.league-box{
+    background-color: aliceblue;
+    width: auto;    
+    display: flex;
+
+
+}
+.league-box > p {
+
+}
+.box{
+    background-color: red;
+}
