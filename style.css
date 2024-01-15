@@ -6,7 +6,6 @@
     line-height: 7px;
 }
 
-
 main{
     height: 100vh;
     background-color: aqua;
@@ -19,7 +18,6 @@ nav{
 nav ul{
     background-color: #000000;
     display: flex;
-
     list-style-type: none;
     height: 65px;
 }
@@ -38,12 +36,17 @@ ul li{
 
 ul li:nth-child(1){
     margin-right: 40px;
-    border: 2px solid white;
 }
 ul li:nth-child(4){
     margin-right: auto;
 }
-
+nav img{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: white 3px solid;
+    border-radius: 30px;
+}
 .leagues{
     font-weight:bolder;
     color: aliceblue;
@@ -64,22 +67,83 @@ ul li:nth-child(5){
 
 
 #game-schedule{
-    border: solid 3px red;
     display: flex;
-    width: auto;
-    margin-right: auto;
+    height: 160px;
 
 }
+
 .league-box{
-    background-color: aliceblue;
-    width: auto;    
     display: flex;
-
+    flex-wrap: wrap;
+    width: 900px;
+    padding: 15px 0px 15px 10px;
+    background-color: #F1F1F1;
 
 }
-.league-box > p {
 
+.league-box h3{
+    width: 412px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.league-box div{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content: space-between;
+    margin: 5px;
+    width: 245px;
+}
+
+.league-box p{
+    padding-top: 10px;
 }
 .box{
-    background-color: red;
+    width: 50px;
+    padding: 10px;
+
 }
+#logo-section{
+    background-color: red;
+    height: 160px;
+}
+
+#logo-section h1{
+    font-size: 40px;
+    margin-right: 50px;
+
+}
+
+#logo-section div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 160px;
+
+}
+#logo-section img {
+    height: 150px;
+    width: 150px;
+}
+
+#news-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(64, 0, 255); 
+}
+
+#ad-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    padding: 100px 0px 100px 0px;
+    background-color: red;
+
+}
+
+
