@@ -8,7 +8,6 @@
 
 main{
     height: 100vh;
-    background-color: aqua;
 }
 
 nav{
@@ -32,7 +31,7 @@ ul li{
     margin-right: 10px;
     margin-left: 40px;
     color: white;
-    font-size: 18spx;
+    font-size: 18px;
 }
 
 ul li:nth-child(1){
@@ -62,7 +61,6 @@ ul li:nth-child(5){
     margin-right: 40px;
     border-radius: 30px;
     padding: 0px 10px 0px 10px;
-    background-color: #46FC96;
 
 }
 
@@ -75,14 +73,7 @@ nav a:hover{
     padding-bottom: 5px;
 }
 
-#account-button:hover{
-    background-color: #21b862;
 
-}
-
-#account-button a{
-    color: black;
-}
 /* shedule */
 
 #game-schedule{
@@ -182,3 +173,18 @@ nav a:hover{
 
 } 
 
+
+/* @media screen and (min-width: 300px) and (orientation: landscape) {
+    .league-box{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100px;
+        background-color: #F1F1F1;
+    
+    }
+
+    #logo-section{
+        background-color: red;
+        display: none;
+    }
+} */

@@ -8,8 +8,26 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+    <style>
+        #account-button{
+            color: black;
+
+        }
+        #account-button a{
+            color: black;
+            text-decoration: none;
+        }
+        #account-button:hover{
+            background-color: rgb(0, 198, 106);
+        }
+
+        footer{
+            margin: 40px;
+
+        }
+        </style>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-    <title>Goal Net NEWS</title>
+    <title>Goat Net NEWS</title>
 </head>
 <body>
     
@@ -22,7 +40,7 @@
                 <li class="leagues"><a href="../premiere/premiere.html">Priemere league</a></li>
                 <li class="leagues"><a href="../laliga/laliga.html">La Liga</a></li>
                 <li class="leagues"><a href="../seria/seria.html">Seria A</a></li>
-                <li id="account-button"><a href="">Account</a></li>
+                <li style="background-color:rgb(0, 255, 136)"; id="account-button"><a  href="">Account</a></li>
             </ul>
         </nav>
 <!--       -->
@@ -33,30 +51,30 @@
                 <h3>Premiere League</h3>
                 <div class="box">
                     <div>
-                        <p>Tomorrow</p>
-                        <p>2:00</p>
+                        <p>Today</p>
+                        <p>Live</p>
                     </div>
                     <div class="teams">
-                        <p>manchester</p>
+                        <p>Manchester United</p>
                         <p>2</p>
                     </div>
                     <div class="teams">
-                        <p>Chelsea</p>
+                        <p>Manchester City</p>
                         <p>2</p>
                     </div> 
                 </div>
                 <div class="box">
                     <div>
                         <p>Tomorrow</p>
-                        <p>2:00</p>
-                    </div>
-                    <div class="teams">
-                        <p>manchester</p>
-                        <p>2</p>
+                        <p>10:00 am</p>
                     </div>
                     <div class="teams">
                         <p>Chelsea</p>
-                        <p>2</p>
+                        <p></p>
+                    </div>
+                    <div class="teams">
+                        <p>Tottenham</p>
+                        <p></p>
                     </div> 
                 </div>
             </div>
@@ -65,29 +83,29 @@
                 <div class="box">
                     <div>
                         <p>Tomorrow</p>
-                        <p>2:00</p>
+                        <p>2:00 pm</p>
                     </div>
                     <div class="teams">
-                        <p>manchester</p>
-                        <p>2</p>
+                        <p>Athletico Madrid</p>
+                        <p></p>
                     </div>
                     <div class="teams">
-                        <p>Chelsea</p>
-                        <p>2</p>
+                        <p>Getafe</p>
+                        <p></p>
                     </div> 
                 </div>
                 <div class="box">
                     <div>
                         <p>Tomorrow</p>
-                        <p>2:00</p>
+                        <p>4:00 pm</p>
                     </div>
                     <div class="teams">
-                        <p>manchester</p>
-                        <p>2</p>
+                        <p>Real Madrid</p>
+                        <p></p>
                     </div>
                     <div class="teams">
-                        <p>Chelsea</p>
-                        <p>2</p>
+                        <p>Barcelona</p>
+                        <p></p>
                     </div> 
                 </div>
             </div>
@@ -95,30 +113,30 @@
                 <h3>Seria A</h3>
                 <div class="box">
                     <div>
-                        <p>Tomorrow</p>
-                        <p>2:00</p>
+                        <p>Thursday</p>
+                        <p>10:00 am</p>
                     </div>
                     <div class="teams">
-                        <p>manchester</p>
-                        <p>2</p>
+                        <p>Juventus</p>
+                        <p></p>
                     </div>
                     <div class="teams">
-                        <p>Chelsea</p>
-                        <p>2</p>
+                        <p>Inter Milan</p>
+                        <p></p>
                     </div> 
                 </div>
                 <div class="box">
                     <div>
-                        <p>Tomorrow</p>
-                        <p>2:00</p>
+                        <p>Friday</p>
+                        <p>2:00 pm</p>
                     </div>
                     <div class="teams">
-                        <p>manchester</p>
-                        <p>2</p>
+                        <p>AC Milan</p>
+                        <p></p>
                     </div>
                     <div class="teams">
-                        <p>Chelsea</p>
-                        <p>2</p>
+                        <p>Roma</p>
+                        <p></p>
                     </div> 
                 </div>
             </div>
@@ -176,7 +194,17 @@
 
 
 
-
+    <footer>
+        <form action="">
+        <fieldset>
+            <legend>Subscribe for Daily Football News
+            </legend>
+            <label for="email">Enter your email</label>
+            <input type="text" id="email" name="email"><br>
+            <input type="button" value="Submit">
+        </fieldset>
+    </form>
+    </footer>
 
 
 
