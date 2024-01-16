@@ -65,6 +65,24 @@ ul li:nth-child(4){
     background-color: #46FC96;
 
 }
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    padding-bottom: 5px;
+}
+
+#account-button:hover{
+    background-color: #21b862;
+
+}
+
+#account-button a{
+    color: black;
+}
 /* Logo */
 #logo-section{
     height: 150px;
