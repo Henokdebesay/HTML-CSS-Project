@@ -13,25 +13,26 @@ main{
 
 nav{
     border-bottom: 2px white solid;
+    background-color: #202731;
+    height: 70px;
+    padding: 5px 0px 5px 0;
+
 }
 
 nav ul{
-    background-color: #000000;
     display: flex;
     list-style-type: none;
-    height: 65px;
 }
 
 ul li{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 5px 0px 5px;
+    padding: 5px 5px 0px 5px;
     margin-right: 10px;
     margin-left: 40px;
     color: white;
-    font-size: 18px;
-    
+    font-size: 18spx;
 }
 
 ul li:nth-child(1){
@@ -68,7 +69,7 @@ ul li:nth-child(5){
 
 #game-schedule{
     display: flex;
-    height: 160px;
+    height: 200px;
 
 }
 
@@ -82,9 +83,10 @@ ul li:nth-child(5){
 }
 
 .league-box h3{
+    font-size: 20px;
+    font-weight: bold;
     width: 412px;
     padding-left: 10px;
-    margin-bottom: 15px;
 }
 
 .league-box div{
@@ -102,10 +104,13 @@ ul li:nth-child(5){
 .box{
     width: 50px;
     padding: 10px;
-
 }
+
+.teams p{
+    margin-bottom: 0px;
+}
+
 #logo-section{
-    background-color: red;
     height: 160px;
 }
 
@@ -120,7 +125,8 @@ ul li:nth-child(5){
     justify-content: center;
     align-items: center;
     background-color: white;
-    height: 160px;
+    height: 180px;
+    padding: 0px 0px 20px 0px;
 
 }
 #logo-section img {
@@ -133,17 +139,28 @@ ul li:nth-child(5){
     justify-content: center;
     align-items: center;
     height: 100px;
-    background-color: rgb(64, 0, 255); 
 }
 
 #ad-section{
     display: flex;
+    height: 445px;
+    padding-left: 23%;
+    background-color: #202731;
+}
+ 
+#discount{
+    display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
-    padding: 100px 0px 100px 0px;
-    background-color: red;
-
 }
 
+#carouselExample{
+    margin-left: 10px;
+    width: 430px;
+
+} 
+.carousel-item{
+    margin-right: 100px;
+
+} 
 
