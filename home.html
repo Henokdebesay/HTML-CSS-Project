@@ -18,16 +18,18 @@
             text-decoration: none;
         }
         #account-button:hover{
-            background-color: rgb(0, 198, 106);
+            background-color: rgb(0, 198, 106) ;
         }
 
-        footer{
-            margin: 40px;
+        #account-button > a:hover{
+            text-decoration: none;
+            pointer-events: none;
 
         }
+
         </style>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-    <title>Goat Net NEWS</title>
+    <title>Got Net NEWS</title>
 </head>
 <body>
     
@@ -145,7 +147,7 @@
 
         <section id="logo-section">
             <div>
-                <h1>GOAT NET NEWS</h1>
+                <h1 style="font-weight: bold;">GOAT NET NEWS</h1>
                 <img src="img/goatLogo.png" alt="" srcset="">
             </div>
         </section>
@@ -189,21 +191,21 @@
                 </button>
               </div>
 
-
         </section>
 
 
 
     <footer>
-        <form action="">
-        <fieldset>
-            <legend>Subscribe for Daily Football News
-            </legend>
-            <label for="email">Enter your email</label>
-            <input type="text" id="email" name="email"><br>
-            <input type="button" value="Submit">
-        </fieldset>
-    </form>
+        <h1>Subscribe to the newsletter</h1><br><br>
+        <form action="/action_page.php">
+            <fieldset>
+             <label for="name">Name</label>
+             <input type="text" id="name" name="fname"><br><br>
+             <label for="email">Email</label>
+             <input type="text" id="email" name="lname"><br><br>
+             <input type="button" id="submit" value="Subscribe">
+            </fieldset>
+           </form>
     </footer>
 
 
